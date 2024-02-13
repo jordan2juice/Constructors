@@ -39,3 +39,18 @@ Television.prototype.getState = function () {
 const myTelevision = new Television(true, 25);
 const myTelevision2 = new Television(false, 86);
 const myTelevision3 = new Television(true, 96);
+
+myTelevision.turnOn ()
+myTelevision.channelUp ()
+myTelevision.channelDown ()
+myTelevision.getState ()
+
+myTelevision2.turnOn()
+myTelevision2.channelUp()
+myTelevision2.channelDown ()
+myTelevision2.getState ()
+
+myTelevision3.turnOn()
+myTelevision3.channelUp ()
+myTelevision3.channelDown ()
+myTelevision3.getState();
